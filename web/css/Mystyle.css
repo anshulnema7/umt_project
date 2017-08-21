@@ -1,0 +1,156 @@
+/* 
+    Document   : Mystyle
+    Created on : 17 Feb, 2014, 12:20:51 PM
+    Author     : X220
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+
+.header-band .logo {
+    float: left;
+}
+body123 {
+    background-image: url("DO_BG.gif");
+    bacbodykground-repeat: repeat;
+}
+.doback {
+    background-image: url("DO_BG.gif");
+    background-repeat: repeat;
+}
+
+body {
+    background-color: #FFF;
+    background-image: url('masthead_upper_texture_tile.png');
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    margin: 0px;
+        margin-top: 0px;
+        margin-right-value: 0px;
+        margin-bottom: 0px;
+        margin-left-value: 0px;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+}
+
+
+
+.header-band {
+    margin: auto;
+        margin-top: auto;
+        margin-right-value: auto;
+        margin-bottom: auto;
+        margin-left-value: auto;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+    padding: 0px;
+    background-position: 0px 70px;
+/*    width: 1250px;*/
+    color: #666;
+}
+
+
+.topNav {
+    clear: both;
+    height: 36px;
+    line-height: 30px;
+    margin: 0px;
+        margin-top: 0px;
+       
+        margin-bottom: 0px;
+       
+    position: relative;
+}
+
+#menu {
+    height: 36px;
+    list-style: none outside none;
+        list-style-type: none;
+        list-style-image: none;
+        list-style-position: outside;
+    width: 900px;
+    position: relative;
+    z-index: 1000;
+    margin-left: 5px;
+        margin-left-value: 5px;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+}
+
+.topNav ul li {
+    border: medium none;
+    color: #555;
+    display: block;
+    float: left;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    margin: 0px;
+    marker-offset: 0px;
+    padding: 7px 15px 10px 10px;
+    position: relative;
+   
+}
+
+#menu li {
+
+background: url('nav_separator.png') no-repeat scroll right top transparent;
+    border: medium none;
+    display: block;
+    float: left;
+    height: 20px;
+    position: relative;
+    text-align: center;
+}
+#menu li:hover a {
+    text-decoration: underline;
+}
+#menu li a {
+    color: #EEE;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    outline: 0px none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.topNav ul li a:hover {
+    color: #009DD9;
+}
+.header-band .topNav ul li a:link, .header-band .topNav ul li a:visited {
+    color: #FFF;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+    text-decoration: none;
+    text-transform: none !important;
+}
+A:hover {
+    text-decoration: underline;
+}
+A {
+    color: #009DD9;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 9pt;
+    text-decoration: none;
+}
+#menu li {
+    text-align: center;
+}
+.header-band .topNav ul li {
+    color: #555;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: uppercase;
+}

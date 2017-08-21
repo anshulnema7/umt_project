@@ -1,0 +1,1328 @@
+@font-face
+{
+    font-family:FoundryGridnik;
+    src: url(FOUGRDMD.otf)format("truetype");
+}
+
+.myh1
+{
+
+  background:#E93E36;
+  padding:14px 0;
+  font-size:140%;
+  font-weight:300;
+  text-align:center;
+  border-top-left-radius:1em;
+  border-top-right-radius:1em;
+  color:#fff;
+
+}
+
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+
+
+.search {
+	width: 70%;
+	background: #E93E36;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 4px 3px;
+	margin: 0px 5px;
+        font-family: FoundryGridnik,calibri;
+        font-size: 14px;
+}
+.search:hover {
+	 background: #d13730;
+}
+
+.formtable
+{
+margin-top: 0px;
+/*background: -webkit-linear-gradient(#D2D2D2, #FFFFFF);  For Safari 5.1 to 6.0
+background: -o-linear-gradient(#D2D2D2, #FFFFFF);  For Opera 11.1 to 12.0 
+background: -moz-linear-gradient(#D2D2D2, #FFFFFF);  For Firefox 3.6 to 15 
+background: linear-gradient(#D2D2D2, #FFFFFF);  Standard syntax (must be last)*/
+background: linear-gradient(to bottom, #FFFFFF 0%, #FBFBFB 100%) repeat scroll 0% 0% transparent;
+border:  solid #E3E3E3 1px;
+}
+
+
+
+.pp
+{
+   font-family: Verdana;
+   font-size: 13px;
+   color: black;
+}
+.ppp
+{
+   font-family: Verdana;
+   font-size: 13px;
+   color: black;
+   float: left;
+   margin-left: 20px;
+}
+ labelnew{
+                font-family:calibri;
+                color:black;
+                font-size:14px;
+                -font-weight:50;
+                text-decoration: underline;
+                font-style: italic;
+
+            }
+.searchinput
+{
+    background-image: url("search12.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.hdtab{
+    display: none;
+
+}
+
+
+label3{
+    font-family:FoundryGridnik,calibri;
+    color:black;
+    font-size:small;
+    vertical-align: super;
+    font-weight:50;
+}
+label3:hover{
+    text-decoration: underline;
+    color: #e04006;
+    cursor:pointer;
+}
+
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+
+#navigation
+{
+	float: center;
+	width: 1360px;
+
+	background: url("links.png") repeat-x scroll 0px 0px transparent;;
+       font-family: calibri;
+       margin-top: -28px;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background:url("nav_header_tile.png") repeat-x scroll 0px 0px transparent;
+                         /*background: #AEAEAE;*/
+                         text-decoration: underline;
+                        
+
+}
+
+
+errorlabel{
+                font-family: calibri;
+                color:red;
+            }
+
+PassMes{
+                font-family: FoundryGridnik,calibri;
+                color:limegreen;
+            }
+       
+ /* ----------->>> GridView <<<----------*/
+ .smallHeaderTextRibbon {
+    background: url("nav_header_tile.png") repeat-x scroll 0px 0px transparent;
+    color: rgb(255, 255, 255);
+   font-family:FoundryGridnik,calibri;
+    font-size: 15px;
+    font-weight: bold;
+    height: 33px;
+    text-transform: uppercase;
+    vertical-align: top;
+    text-align: left;
+    line-height: 28px;
+    white-space: nowrap;
+}
+
+
+.basicHeaderTrail_wj {
+    background: url("header_tail_tile.png") repeat-x scroll 0% 0% transparent;
+    height: 33px;
+    width: 100%;
+}
+.basicHeaderSlope_wj {
+    background: url("header_slant.png") repeat scroll 0% 0% transparent;
+    height: 33px;
+}
+.basicHeaderText_wj {
+    background: url("header_tile.png") repeat-x scroll 0px 0px transparent;
+    color: rgb(255, 255, 255);
+    font-family:FoundryGridnik,calibri;
+    font-size: 15px;
+    font-weight: lighter;
+    height: 33px;
+    padding: 5px;
+    text-transform: uppercase;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+
+
+
+.TFtable{
+
+     border-collapse:collapse;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 12px;
+
+}
+
+.TFtable td {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 4px 1px;
+    text-align: center;
+    color: black;
+    
+    
+    
+}
+
+
+ .TFtable thead tr th
+        {
+    font-size: 12px;
+    color: whitesmoke;
+    padding: 6px 0px;
+    position: relative;
+    -transition: all 300ms;
+    font-weight: 200;
+     background: #AEAEAE;
+
+
+        }
+ 
+
+
+/*  Define the background color for all the ODD background rows  */
+.TFtable tr:nth-child(odd){
+    background: white;
+
+}
+/*  Define the background color for all the EVEN background rows  */
+.TFtable tr:nth-child(even){
+    background:white;
+
+}
+
+
+.TFtable tbody:hover td {
+    
+  
+   
+
+}
+
+.TFtable tbody:hover tr:hover td {
+   color: #0b0b0b;
+       text-shadow: 0 0px 0 #ffff;
+/*       background:rgba(0,0,0,0.07);*/
+background: #F0F0F0;
+}
+
+
+
+root { 
+    display: block;
+}
+
+body {
+
+    background-color: white;
+    /*background-image: url("cbt.jpg");*/
+    background-repeat: repeat;
+/*background-image: url('bg11.png');*/
+    padding:0px;
+    margin: 0px;
+    
+}
+
+.bodybenner
+{
+    background-image:url("benner2.png");
+    background-repeat: no-repeat;
+    background-color : #EFEFEF;
+    background-position: 50% 0px;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+}
+
+.benner{
+
+
+    background-image: url("footer.png");
+
+}
+
+.body1
+{
+    background-image:url("benner3.png");
+    background-repeat: no-repeat;
+    height:92px;
+    background-position: 50%;
+
+}
+
+.ribbon
+{
+    background-image:url("rbn.png");
+
+}
+
+.bodyimg
+{
+    background-image:url("bag.jpg");
+    background-repeat: no-repeat;
+    background-color : #EFEFEF;
+    background-position: 50% 0px;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+}
+
+.box {
+
+    background-color:#d9d9d9;
+    position:fixed;
+    margin-left:-150px; /* half of width */
+    margin-top:-150px;  /* half of height */
+    top:50%;
+    left:50%;
+}
+
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+p.margin
+{
+    margin: 200px 700px
+}
+
+.center
+{
+    background-image:url("bg.png");
+    background-repeat: no-repeat;
+    background-color : #EFEFEF;
+}
+.visibal
+{
+    visibility: hidden;
+}
+.tablebackground
+{
+
+    background: url("tableBackground.jpg") no-repeat;
+
+    border-top-style: groove;
+    border-bottom-style: groove;
+    border-left-style: groove;
+    border-right-style: groove;
+    border-top-color: #ff3300;
+    border-bottom-color: #ff3300;
+    border-left-color: #ff3300;
+    border-right-color: #ff3300;
+}
+
+.pos_fixed
+{
+    position: fixed;
+    top:182px;
+    right:169px;
+
+}
+.loginpage
+{
+    background-image:url("Background copy.jpg");
+    background-repeat: no-repeat;
+
+}
+
+.textarea
+{
+
+    min-height: 98px;
+    max-height: 98px;
+    max-width: 400px;
+    min-width: 400px;
+    border:solid 1px #A6A6A6;
+    font-family: calibri;
+    text-decoration: none;
+
+}
+
+
+
+#footerText {
+    padding-top: 120px;
+    text-align: center;
+    clear: both;
+    color: #a7a7a7;;
+    margin-right: 50px;
+    -margin-right-value: 100px;
+    -margin-right-ltr-source: physical;
+    -margin-right-rtl-source: physical;
+}
+
+.table_link{
+    margin-top: -28px;
+
+    background-image: url("links.png");
+    background-repeat: repeat-x;
+
+
+}
+.table_body{
+
+    margin-top: 30px;
+}
+a{
+    font-family: calibri;
+    color:#FFFFFF;
+    text-decoration: none;
+}
+label{
+    font-family:FoundryGridnik,calibri;
+    color:#505050;
+     font-size:13px;
+      padding-left: 3px;
+
+
+
+}
+.userinfotbl{
+    font-family:FoundryGridnik,calibri;
+    color:#505050;
+    padding-bottom: 15px;
+    margin-top: 30px;
+
+background: -webkit-linear-gradient(#C2C2C2, #FFFFFF); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#C2C2C2, #FFFFFF); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#C2C2C2, #FFFFFF); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#C2C2C2, #FFFFFF); /* Standard syntax (must be last)*/
+
+
+    background-position: center;
+/*    border-radius: 15px;*/
+border-radius: 3em 0em 0em;
+   -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    color: #444444;
+    padding-left: 8px;
+   
+
+}
+.labelhead{
+    font-family: calibri;
+    color: whitesmoke;
+}
+
+.table_td
+{
+    text-align: center;
+
+}
+
+.search-old {
+    height: 37px;
+    width: 80%;
+    border-radius: 10px;
+   -webkit-border-radius: 10px;
+    padding:6px;
+    border: 0;
+    font:large;
+    font-size:large;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: FoundryGridnik,calibri;
+    background-color : rgb(233, 62, 54);
+    cursor: pointer;
+}
+.search-old:hover
+{
+   color:white;
+    text-decoration: none;
+    background-color : rgb(230, 35, 24);
+   
+}
+.login_icon
+{
+    background-image: url("usericon.png");
+
+    width: 140px;
+    height: 150px;
+    margin: 0px auto 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.ChangePassordIco
+{
+    background-image: url("key2.png");
+
+    width: 128px;
+   
+    margin: 0px auto 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.form_textbox
+{
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    padding:0px;
+    border:solid 0px ;
+    font:large;
+    font-size:medium;
+    width: 92%;
+    margin-top: 3.4px;   
+     font-family: FoundryGridnik,calibri;
+    text-decoration: none;
+    background: #FFF;
+}
+
+
+ul.svertical{
+    width: 200px; /* width of menu */
+    overflow: auto;
+    background: transperent; /* background of menu */
+
+    padding: 0;
+    padding-top: 60px; /* top padding */
+
+
+    list-style-type: none;
+}
+
+ul.svertical li{
+    text-align: right; /* right align menu links */
+}
+
+ul.svertical li a{
+    position: relative;
+    display: inline-block;
+    text-indent: 5px;
+    overflow: hidden;
+    background: rgb(233, 62, 54); /* initial background color of links */
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 50px; /* spacing between links */
+    color: white;
+    -moz-box-shadow: inset -7px 0 5px rgb(233,62,54); /* inner right shadow added to each link */
+    -webkit-box-shadow: inset -7px 0 5px rgb(233,62,54);
+    box-shadow: inset -7px 0 5px rgb(233,62,54);
+    -moz-transition: all 0.2s ease-in-out; /* CSS3 transition of hover properties */
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+ul.svertical li a:hover{
+    padding-right: 30px; /* add right padding to expand link horizontally to the left */
+    color: white;
+    background: rgb(233,62,54);
+    -moz-box-shadow: inset -7px 0 5px rgba(114,114,114, 0.8); /* contract inner right shadow */
+    -webkit-box-shadow: inset -7px 0 5px rgb(233,62,54);
+    box-shadow: inset -7px 0 5px rgb(233,62,54);
+}
+
+ul.svertical li a:before{ /* CSS generated content: slanted right edge */
+                          content: "";
+                          position: absolute;
+                          left: 0;
+                          top: 0;
+                          border-style: solid;
+                          border-width: 70px 0 0 20px; /* Play around with 1st and 4th value to change slant degree */
+                          border-color: transparent transparent transparent rgb(233,62,54) ; /* change black to match the background color of the menu UL */
+
+}
+
+.form_button {
+    height: 25px;
+    width: 70px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding:0px;
+    border: 0;
+    font:large;
+    font-size:large;
+    color: whitesmoke;
+    text-decoration: none;
+
+    background-color : rgb(233, 62, 54);
+
+}
+
+.search_login {
+    height: 40px;
+    width: 85%;
+    border-radius: 6px;
+
+    -moz-border-radius: 10px;
+
+    font-size:large;
+}
+
+.table1{
+
+    margin-top: 150px;
+
+}
+.form_caja {
+
+box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+   
+/*    border-radius: 6px;*/
+border-radius: 0em 3em 0em;
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 15px;
+color: #444444;
+
+/*background: -webkit-linear-gradient(#C2C2C2, #FFFFFF);  For Safari 5.1 to 6.0
+background: -o-linear-gradient(#C2C2C2, #FFFFFF);  For Opera 11.1 to 12.0 
+background: -moz-linear-gradient(#C2C2C2, #FFFFFF);  For Firefox 3.6 to 15 
+background: linear-gradient(#C2C2C2, #FFFFFF);  Standard syntax (must be last)*/
+background: linear-gradient(to bottom, #FFF 0%, #F2F2F2 100%) repeat scroll 0% 0% transparent;
+}
+
+
+.inputlogin
+{
+    -moz-border-radius: 10px;
+    border-radius: 6px;
+   
+    padding:6px;
+    width: 75%;
+    border:solid 1px #C2C2C2;
+   
+    font-size: 14px;
+    height: 20px;
+}
+.inputlogin:focus{
+
+    border:solid 1px #777777;
+
+}
+.newDrDown
+{
+    -moz-border-radius: 10px;
+    margin-top: 4%;
+    border-radius: 6px;
+    padding:6px;
+    width: 79%;
+    border:solid 1px #DFDFDF;
+    font-size: 14px;
+    height: 35px;
+}
+.newDrDown:focus{
+
+    border:solid 1px #777777;
+
+}
+
+thead
+{
+
+}
+
+.report_tables {
+
+    padding-top: 1px;
+    padding-bottom: 15px;
+    margin: 0 auto 20px auto;
+    background: #A6A6A6;
+    font-family: calibri;
+    color:#FFFFFF;
+    text-decoration: none;
+
+    border-radius: 6px;
+
+    -moz-border-radius: 20px;
+
+    -webkit-border-radius: 20px;
+
+}
+h3
+{
+    font-family: calibri;
+    text-decoration:underline;
+    font-style: italic;
+
+}
+
+.form_dropdown
+{
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    padding:0px;
+    border:solid 1px #A6A6A6;
+    font:large;
+    font-size:medium;
+    width: 100%;
+
+    font-family: calibri;
+    text-decoration: none;
+
+}
+
+.form_textbox_small
+{
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    padding:1px;
+    border:solid 1px #A6A6A6;
+    font-size:15px;
+    width: 70%;
+    font-family: calibri;
+    text-decoration: none;
+    padding-left: 5px;
+
+}
+
+.form_textbox_small:focus{
+
+  border: solid 1px black;
+
+}
+
+
+.form_button_small
+{
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    padding:1px;
+    border:solid 1px #A6A6A6;
+    font:large;
+    font-size:medium;
+    width: 9%;
+
+    font-family: calibri;
+    text-decoration: none;
+
+}
+.form_button_edit
+{
+    -moz-border-radius: 1px;
+    -border-radius: 1px;
+    padding:2px;
+    border:solid 1px #A6A6A6;
+    font:large;
+    font-size:medium;
+    width: 100%;
+    background-color:#A6A6A6;
+
+    font-family: calibri;
+    text-decoration: none;
+
+}
+
+label2{
+    font-family:FoundryGridnik,calibri;
+    color:black;
+    font-size:14px;
+    -font-weight:50;
+
+}
+
+TaxLab
+{
+   font:large;
+    font-size:medium;
+    font-family: calibri;
+    text-decoration: none;
+    color: black;
+}
+.radiolab
+{
+   font-family: calibri;
+   font-size: 17px;
+   font-weight: 200;
+}
+
+
+.form_textbox1
+{
+   -moz-border-radius: 1px;
+    border-radius: 1px;
+    padding:1px;
+    padding-left: 3px;
+    border:solid 1px #A6A6A6;
+    font-size:15px;
+    width: 95%;
+    font-family: calibri;
+    text-decoration: none;
+  
+
+}
+.form_textbox1:hover{
+  border: solid 1px gray;
+}
+
+.form_textbox1:focus{
+  border: solid 1px black;
+}
+
+
+.form_textbox1[required]:invalid {box-shadow: 0 0 0px 1px red; }
+.form_textbox1[required]:invalid { box-shadow: 0 0 0px 0px red;border: solid red 1px; }
+
+
+
+.textarea1
+{
+    min-height: 87px;
+    max-height: 87px;
+    max-width: 95%;
+    min-width: 95%;
+    border:solid 1px #A6A6A6;
+    font-family: calibri;
+    text-decoration: none;
+    padding-left: 3px;
+}
+
+
+
+
+.textareaChat
+{
+    min-height: 60px;
+    max-height: 60px;
+    max-width: 95%;
+    min-width: 95%;
+    border:solid 1px #A6A6A6;
+    font-family: calibri;
+    text-decoration: none;
+    padding-left: 3px;
+}
+
+.textarea1:focus{
+
+   border: solid 1px black;
+}
+
+.textareabig
+{
+    min-height: 120px;
+    max-height: 120px;
+    max-width: 95%;
+    min-width: 95%;
+    border:solid 1px #A6A6A6;
+    font-family: calibri;
+    text-decoration: none;
+    
+      padding-left: 3px;
+    
+}
+
+.textareabig:focus{
+
+   border: solid 1px black;
+}
+.textareaVerybig
+{
+    min-height: 340px;
+    max-height: 340px;
+    max-width: 95%;
+    min-width: 95%;
+    border:solid 1px #A6A6A6;
+    font-family: calibri;
+    text-decoration: none;
+    
+      padding-left: 3px;
+}
+
+
+
+/* new Page Style */
+/*---------------New Menu Style------------------------*/
+
+.form_textsearch
+{
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    padding:1px;
+    border:solid 1px #A6A6A6;
+  
+    font-size:15px;
+    width: 95%;
+
+    font-family: calibri;
+    text-decoration: none;
+    background-image: url("search12.png");
+    background-repeat: no-repeat;
+    background-position: right;
+     
+      padding-left: 3px;
+
+}
+.form_textsearch:focus{
+
+  border: solid 1px black;
+
+}
+
+
+
+
+.topNav2 {
+    clear: both;
+    height: 36px;
+    line-height: 30px;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: 50px;
+    position: absolute;
+    float: left;
+    right: 0;
+  
+   
+}
+
+
+
+#menu2 {
+    height: 36px;
+    list-style: none outside none;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+  
+    position: relative;
+    z-index: 1000;
+   
+        
+}
+
+.topNav2 ul li {
+    border: medium none;
+    color: #555;
+    display: block;
+    float: right;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    margin: 0px;
+    marker-offset: 0px;
+    padding: 7px 15px 10px 10px;
+    position: relative;
+   
+}
+
+#menu2 li {
+
+background: url('nav_separator.png') no-repeat scroll right top transparent;
+    border: medium none;
+    display: block;
+    float: left;
+    height: 20px;
+    position: relative;
+    text-align: center;
+}
+#menu2 li:hover a {
+    text-decoration: underline;
+}
+#menu2 li a {
+    color: #EEE;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    outline: 0px none;
+    text-decoration: none;
+    cursor: pointer;
+}
+#menu2 li aa {
+    color: #EEE;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    outline: 0px none;
+    text-decoration: none;
+   
+}
+
+
+.topNav2 ul li a:hover {
+    color: #009DD9;
+}
+
+hr.style-two {
+             border: 0;
+            height: 1px;
+            background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+            background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+            background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+            background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+
+
+.NewTableStyle{
+
+    border-collapse:collapse;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 12px;
+
+
+}
+
+.NewTableStyle td {
+   
+    border-bottom: 1px solid #e8e8e8;
+    padding: 4px 1px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+
+}
+
+
+ .NewTableStyle thead tr th
+        {
+
+/*    background: #E93E36;*/
+ font-size: 13px;
+    color: whitesmoke;
+    padding: 6px 0px;
+    position: relative;
+    -transition: all 300ms;
+    font-weight: 200;
+     background: #AEAEAE;
+     font-weight: bold;
+
+
+        }
+
+
+
+/*  Define the background color for all the ODD background rows  */
+.NewTableStyle tr:nth-child(odd){
+    background: white;
+   // border-right: 1px solid #fff;
+
+
+}
+/*  Define the background color for all the EVEN background rows  */
+.NewTableStyle tr:nth-child(even){
+    background: white;
+
+}
+
+
+.NewTableStyle tbody:hover tr:hover td {
+       color: #0b0b0b;
+       text-shadow: 0 0px 0 #ffff;
+/*       background:rgba(0,0,0,0.07);*/
+background: #F0F0F0;
+
+
+
+}
+
+
+.samebck
+{
+
+background: #7a7579; /* Old browsers */
+background: -moz-linear-gradient(top,  #7a7579 1%, #342d35 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#7a7579), color-stop(100%,#342d35)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #7a7579 1%,#342d35 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #7a7579 1%,#342d35 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #7a7579 1%,#342d35 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #7a7579 1%,#342d35 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a7579', endColorstr='#342d35',GradientType=0 ); /* IE6-9 */
+
+}
+
+#fall_background {
+        -webkit-transition: all 3s;
+           -moz-transition: all 3s;
+                transition: all 3s;
+    }
+    #fall_wrapper {
+        -webkit-transition: all 3s;
+           -moz-transition: all 3s;
+                transition: all 3s;
+        -webkit-perspective: 1300px;
+        -moz-perspective: 1300px;
+        perspective: 1300px;
+    }
+    #fall {
+        -webkit-transition: all 3s ease-in;
+        -moz-transition: all 3s ease-in;
+        transition: all 3s ease-in;
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transform: translateZ(600px) rotateX(20deg);
+        -moz-transform: translateZ(600px) rotateX(20deg);
+        -ms-transform: translateZ(600px) rotateX(20deg);
+        transform: translateZ(600px) rotateX(20deg);
+    }
+    .popup_visible #fall {
+        -webkit-transform: translateZ(0px) rotateX(0deg);
+        -moz-transform: translateZ(0px) rotateX(0deg);
+        -ms-transform: translateZ(0px) rotateX(0deg);
+        transform: translateZ(0px) rotateX(0deg);
+    }
+
+
+
+.Myheader
+{
+    background-color: #F0F0F0;
+    border: solid #E3E3E3 1px;
+    font-family: calibri;
+                color:black;
+                 padding:2px;
+                font-size:15px;
+                -font-weight:200;
+                padding-left: 4px;
+}
+
+
+ #Mysearchbox
+{
+    background-color: #FDFDFD;
+    border: solid #E3E3E3 1px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+
+    width: 90%;
+/*    height: 35px;*/
+    padding: 5px;
+    overflow: hidden; /* Clear floats */
+}
+.CommentDiv
+{
+  
+    border: solid #E3E3E3 1px;
+    font-family:calibri;
+    padding-left: 5px;
+    font-size: 16px;
+    cpadding-top: 10px;
+    height:120px;
+    text-align: left;
+    background: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+.Mydrop_menu {
+
+}
+.Mydrop_menu li { float:left;padding: 0%; }
+.Mydrop_menu li a {
+
+}
+
+/* Submenu */
+.Mydrop_menu ul {
+	position:absolute;
+	left:-9999px;
+	top:-9999px;
+	list-style-type:none;
+}
+.Mydrop_menu li:hover { position:relative; background:transparent; }
+.Mydrop_menu li:hover ul {
+	left:0px;
+	top:30px;
+        padding:0px;
+        z-index: 10;
+}
+
+
+.Mydrop_menu li:hover ul li a {
+	padding:0px;
+	display:block;
+
+
+}
+
+
+.Mydrop_menu li:hover ul li a:hover { background:#E93E36;padding: 0px;cursor: pointer }
+
+
+.DropMenuBox
+{
+box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
+background: linear-gradient(to bottom, #FFF 0%, #F2F2F2 100%) repeat scroll 0% 0% transparent;
+z-index: 10;
+position: absolute;
+border-top: none;
+padding-left: 10px;
+}
+
+#gb a.gb_V.gb_V {
+    color: #666;
+    cursor: default;
+    text-decoration: none;
+    
+}
+.gb_V {
+    background: none repeat scroll 0% 0% #F8F8F8;
+    border: 1px solid #C6C6C6;
+    display: inline-block;
+    line-height: 12px;
+    padding: 0px 0px;
+    border-radius: 2px;
+    margin: 5px 10px;
+    background: transparent;
+}
+.gb_4 {
+    background-size: 35px 35px;
+    border-radius: 50%;
+    display: block;
+    margin: -9px;
+    height: 35px;
+    width: 35px;
+}
+.gbii {
+    background-image: url("excel-3-32.png");
+}
+
+.waitDiv
+{
+        display: none;
+        position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('Wait.GIF') 50% 330px no-repeat rgba(255,255,255,0.4);
+
+}
+.WaitDivNew
+{
+        display: none;
+        position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	
+	background: url('Wait.GIF') 50% 330px no-repeat rgba(255,255,255,0.4);
+
+}
+
+
+
+
+.PopUpTabe{
+
+     border-collapse:collapse;
+    font-family: calibri;
+    font-size: 15px;
+
+}
+
+.PopUpTabe td {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 1px 1px;
+    text-align: center;
+    color: black;
+    
+    
+    
+}
+
+
+ .PopUpTabe thead tr th
+        {
+     background-color: #F0F0F0;
+     border: solid #E3E3E3 1px;
+   padding: 2px 2px 2px 4px;
+                color:black;
+                 padding:2px;
+                font-size:15px;
+              
+              
+     
+
+
+        }
+ 
+
+
+/*  Define the background color for all the ODD background rows  */
+.PopUpTabe tr:nth-child(odd){
+    background: white;
+
+}
+/*  Define the background color for all the EVEN background rows  */
+.PopUpTabe tr:nth-child(even){
+    background:white;
+
+}
+
+
+.PopUpTabe tbody:hover td {
+    
+  
+   
+
+}
+
+.PopUpTabe tbody:hover tr:hover td {
+   color: #0b0b0b;
+       text-shadow: 0 0px 0 #ffff;
+/*       background:rgba(0,0,0,0.07);*/
+background: #F0F0F0;
+}

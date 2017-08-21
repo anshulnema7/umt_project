@@ -1,0 +1,357 @@
+@font-face
+{
+    font-family:FoundryGridnik;
+    src: url(FOUGRDMD.otf)format("truetype");
+}
+.div_footer
+{
+    background-repeat: repeat-x;
+    background-color:#555;
+    height: 50px;
+    width:100%;
+   
+    bottom: 0;
+    position: absolute;
+    margin: 0;
+    padding: 15px 0px 0px 0px;
+text-align: center;
+}
+
+
+#cssmenu {
+  margin-top: 20px;
+  margin: 0;
+  padding: 0;
+  font-family:FoundryGridnik;
+}
+#cssmenu {
+  width: 233px;
+}
+#cssmenu ul {
+  list-style: none;
+  text-indent: 0px;
+}
+#cssmenu li {
+  margin-top: 3px;
+}
+#cssmenu a {
+  font: 13px FoundryGridnik;
+  padding: 4px;
+  color: rgb(40,40,40);
+  display: block;
+  padding: 6px 30px;
+  height: 20px;
+  text-decoration: none;
+  background: url('background.gif');
+ 
+}
+#cssmenu a:hover {
+  background: url('highlight.gif') no-repeat right;
+  padding: 6px 40px;
+  
+}
+
+
+
+
+.button_example{
+border:1px solid #999999; -webkit-border-radius: 9px; -moz-border-radius: 9px;border-radius: 9px;font-size:15px;font-family:FoundryGridnik,calibri; padding: 3px 20px 3px 20px; text-decoration:none; display:inline-block;text-shadow: 1px 1px 0 rgba(255,255,255,0.3);font-weight:bold; color: #000000;
+ background-color: #FFFFFF; background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#CFCFCF));
+ background-image: -webkit-linear-gradient(top, #FFFFFF, #CFCFCF);
+ background-image: -moz-linear-gradient(top, #FFFFFF, #CFCFCF);
+ background-image: -ms-linear-gradient(top, #FFFFFF, #CFCFCF);
+ background-image: -o-linear-gradient(top, #FFFFFF, #CFCFCF);
+ background-image: linear-gradient(to bottom, #FFFFFF, #CFCFCF);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFFFFF, endColorstr=#CFCFCF);
+}
+
+.button_example:hover{
+ border:1px solid #7A7A7A;
+ background-color: #EEEEEE; background-image: -webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#C7C7C7));
+ background-image: -webkit-linear-gradient(top, #EEEEEE, #C7C7C7);
+ background-image: -moz-linear-gradient(top, #EEEEEE, #C7C7C7);
+ background-image: -ms-linear-gradient(top, #EEEEEE, #C7C7C7);
+ background-image: -o-linear-gradient(top, #EEEEEE, #C7C7C7);
+ background-image: linear-gradient(to bottom, #EEEEEE, #C7C7C7);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#EEEEEE, endColorstr=#C7C7C7);
+ text-decoration: none;
+}
+
+
+.div_backgrndimg
+{
+    background-repeat: repeat-x;
+    background-image: url('masthead_upper_texture_tile.png');
+    width:100%;
+    height: 100px;
+}
+
+.header-band .logo {
+    float: left;
+    top: 0;
+    position: absolute;
+}
+body{
+background-color: white;
+//   background-image: url('cbt.jpg');
+/*background-image: url('bg11.png');*/
+    background-repeat: repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.bodynew {
+    background-color: #FFF;
+    background-image: url('masthead_upper_texture_tile.png');
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    margin: 0px;
+        margin-top: 0px;
+        margin-right-value: 0px;
+        margin-bottom: 0px;
+        margin-left-value: 0px;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+}
+
+
+
+.header-band {
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+    background-position: 0px 70px;
+    width: 97%;
+    color: #666;
+}
+
+
+.topNav {
+    clear: both;
+    height: 36px;
+    line-height: 30px;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: 50px;
+    position: absolute;
+}
+
+#menu {
+    height: 36px;
+    list-style: none outside none;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+    width: 100%;
+    position: relative;
+    z-index: 1000;
+    margin-left: 0px;
+    
+        
+}
+
+.topNav ul li {
+    border: medium none;
+    color: #555;
+    display: block;
+    float: left;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    margin: 0px;
+    marker-offset: 0px;
+/*    padding: 7px 0px 10px 10px;*/
+    position: relative;
+   
+}
+
+#menu li {
+
+/*background: url('nav_separator.png') no-repeat scroll right top transparent;*/
+    border: medium none;
+    display: block;
+    float: left;
+    height: 20px;
+    position: relative;
+    text-align: center;
+}
+#menu li:hover a {
+/*    text-decoration: underline;*/
+background: none repeat scroll 0% 0% #FFF;
+color: #000;
+}
+#menu li a {
+    color: #EEE;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    outline: 0px none;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 8px 7px;
+}
+#menu li aa {
+    color: #EEE;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    outline: 0px none;
+    text-decoration: none;
+   
+}
+
+
+.topNav ul li a:hover {
+    color: #009DD9;
+}
+.header-band .topNav ul li a:link, .header-band .topNav ul li a:visited {
+    color: #FFF;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+    text-decoration: none;
+    text-transform: none !important;
+}
+A:hover {
+    text-decoration: underline;
+}
+A {
+    color: #009DD9;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 9pt;
+    text-decoration: none;
+}
+aa{
+   color: #009DD9;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 9pt;
+    text-decoration: none;
+
+
+}
+#menu li {
+    text-align: center;
+}
+.header-band .topNav ul li {
+    color: #555;
+    font-weight: bold;
+    line-height: 20px;
+    
+}
+
+
+
+.tabbable .tabs
+{
+    list-style: none;
+    margin: 0 20px;
+    padding: 0px;
+    font-family:FoundryGridnik;
+    margin-top: 15px;
+    
+}
+
+.tabbable .tabs li
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    font-family:FoundryGridnik;
+}
+
+
+
+
+.tabbable .tabs li a
+{
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #a7a7a7;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 3px 3px 0 0;
+    background: #f5f5f5;
+    font-family:FoundryGridnik;
+    font-size:15px;
+}
+
+
+.tabbable .tabs li a.active, .tabbable .tabs li a:hover
+{
+    border-bottom-color: #fff;
+    background: #fff;
+    
+}
+
+
+.tabcontent
+{
+    border: 1px solid #a7a7a7;
+    margin-top: -1px;
+    padding: 10px;
+}
+ /* ----------->>> New Menu <<<----------*/
+
+            .POPReportTable{
+
+    border-collapse:collapse;
+    font-family:calibri;
+    font-size: 13px;
+
+
+
+
+
+}
+
+.POPReportTable td {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #e8e8e8;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 3px 2px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+
+}
+
+
+ .POPReportTable thead tr th
+        {
+    font-family:calibri;
+    background: #AEAEAE;
+    color: whitesmoke;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #e8e8e8;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 1px 2px;
+    position: relative;
+    -transition: all 300ms;
+
+
+        }
+
+
+
+/*  Define the background color for all the ODD background rows  */
+.POPReportTable tr:nth-child(odd){
+    background: whitesmoke;
+    border-right: 1px solid #fff;
+
+
+}
+/*  Define the background color for all the EVEN background rows  */
+.POPReportTable tr:nth-child(even){
+    background:#DCDCDC;
+
+}
+
