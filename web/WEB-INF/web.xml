@@ -12,6 +12,10 @@
         <servlet-name>DrInboxInbox</servlet-name>
         <servlet-class>com.test.DrInboxInbox</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>test</servlet-name>
+        <servlet-class>com.test.test</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>GetReport</servlet-name>
         <url-pattern>/GetReport</url-pattern>
@@ -23,6 +27,10 @@
     <servlet-mapping>
         <servlet-name>DrInboxInbox</servlet-name>
         <url-pattern>/DrInboxInbox</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>test</servlet-name>
+        <url-pattern>/test</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
