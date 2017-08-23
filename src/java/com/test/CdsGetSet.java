@@ -295,9 +295,6 @@ private String Need_To_Create;
         return CC_WAI;
     }
 
-    /**
-     * @param CC_WAI_Satisfaction the CC_WAI_Satisfaction to set
-     */
     public void setCC_WAI(String CC_WAI) {
         this.CC_WAI = CC_WAI;
     }
